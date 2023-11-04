@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(13, 3, 22);
+}
+.navbar1 ul {
+  display: flex;
+  list-style: none;
+}
+.navbar1 ul a {
+  margin-right: 3rem;
+  color: white;
+  text-decoration: none;
+}
+select {
+  background-color: rgb(31, 8, 52);
+  color: white;
+  border: none;
+  box-shadow: 25px;
+  border-radius: 5px;
+}
+.middle {
+  display: flex;
+  margin-top: 2rem;
+}
+.middle h4 {
+  margin-left: 2rem;
+  color: white;
+}
+span {
+  color: yellow;
+}
+.middle input {
+  margin-left: 7.5rem;
+  width: 55%;
+  height: 35px;
+  border-radius: 25px;
+  padding: 0.5rem;
+}
+#heart {
+  margin-left: 16rem;
+  font-size: larger;
+  color: white;
+}
+#cart-btn {
+  font-size: larger;
+  color: white;
+}
+.navbar2 ul {
+  display: flex;
+  list-style: none;
+  margin-top: 2rem;
+  padding-bottom: 0.6rem;
+}
+.navbar2 ul a {
+  text-decoration: none;
+  color: white;
+  margin-right: 1.5rem;
+}
+.col-md-6 {
+  background-image: url(img/R.png);
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  justify-content: center;
+  border-radius: 10px;
+  padding-top: 3rem;
+  margin-left: 6.5rem;
+  background-color: rgba(0, 0, 0, 0.751);
+}
+.col-md-12 {
+  background: url(img/iphone_14_PNG43.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-left: 2.5rem;
+  height: 190px;
+  background-color: rgba(0, 0, 0, 0.751);
+  border-radius: 10px;
+  padding-top: 1rem;
+}
+.btn:hover {
+  transform: scale(1.1);
+}
+hr {
+  margin-left: 6.5rem;
+  width: 85%;
+  background-color: rgb(215, 138, 22);
+}
+img {
+  width: 200px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.stars i {
+  color: gold;
+}
+img:hover {
+  transform: scale(1.1);
+}
+.container1 {
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+}
+.discount {
+  background: url(img/iphone_14_PNG21.png) no-repeat;
+  background-size: cover;
+  background-position: 80%;
+  background-size: 220px;
+  height: 250px;
+  width: 80%;
+  margin-left: 9rem;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.593);
+  padding-top: 0.5rem;
+}
+.foot {
+  background-color: rgb(13, 3, 22);
+  margin-top: 4rem;
+  border-radius: 25px;
+}
+.con {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: white;
+}
